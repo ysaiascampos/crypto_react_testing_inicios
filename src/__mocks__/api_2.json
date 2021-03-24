@@ -1,0 +1,128 @@
+{
+    "data": {
+        "RAW": {
+            "BTC": {
+                "USD": {
+                    "TYPE": "5",
+                    "MARKET": "CCCAGG",
+                    "FROMSYMBOL": "BTC",
+                    "TOSYMBOL": "USD",
+                    "FLAGS": "2049",
+                    "PRICE": 54011.44,
+                    "LASTUPDATE": 1616546215,
+                    "MEDIAN": 54028.9,
+                    "LASTVOLUME": 0.00122,
+                    "LASTVOLUMETO": 65.879329,
+                    "LASTTRADEID": "8652943",
+                    "VOLUMEDAY": 1693.0543331098775,
+                    "VOLUMEDAYTO": 91543292.47288962,
+                    "VOLUME24HOUR": 44083.19076928001,
+                    "VOLUME24HOURTO": 2406194420.199283,
+                    "OPENDAY": 54351.86,
+                    "HIGHDAY": 54656.58,
+                    "LOWDAY": 53791.09,
+                    "OPEN24HOUR": 54714.13,
+                    "HIGH24HOUR": 55792.12,
+                    "LOW24HOUR": 52962.18,
+                    "LASTMARKET": "binanceusa",
+                    "VOLUMEHOUR": 1693.0543331098775,
+                    "VOLUMEHOURTO": 91543292.47288962,
+                    "OPENHOUR": 54351.86,
+                    "HIGHHOUR": 54656.58,
+                    "LOWHOUR": 53791.09,
+                    "TOPTIERVOLUME24HOUR": 44083.19076928001,
+                    "TOPTIERVOLUME24HOURTO": 2406194420.199283,
+                    "CHANGE24HOUR": -702.689999999995,
+                    "CHANGEPCT24HOUR": -1.2842934722712307,
+                    "CHANGEDAY": -340.41999999999825,
+                    "CHANGEPCTDAY": -0.6263263115558478,
+                    "CHANGEHOUR": -340.41999999999825,
+                    "CHANGEPCTHOUR": -0.6263263115558478,
+                    "CONVERSIONTYPE": "direct",
+                    "CONVERSIONSYMBOL": "",
+                    "SUPPLY": 18662556,
+                    "MKTCAP": 1007991523640.64,
+                    "MKTCAPPENALTY": 0,
+                    "TOTALVOLUME24H": 230488.8343567408,
+                    "TOTALVOLUME24HTO": 12474231654.484806,
+                    "TOTALTOPTIERVOLUME24H": 230055.42875982597,
+                    "TOTALTOPTIERVOLUME24HTO": 12450822794.091377,
+                    "IMAGEURL": "/media/37746251/btc.png"
+                }
+            }
+        },
+        "DISPLAY": {
+            "BTC": {
+                "USD": {
+                    "FROMSYMBOL": "Ƀ",
+                    "TOSYMBOL": "$",
+                    "MARKET": "CryptoCompare Index",
+                    "PRICE": "$ 54,011.4",
+                    "LASTUPDATE": "Just now",
+                    "LASTVOLUME": "Ƀ 0.001220",
+                    "LASTVOLUMETO": "$ 65.88",
+                    "LASTTRADEID": "8652943",
+                    "VOLUMEDAY": "Ƀ 1,693.05",
+                    "VOLUMEDAYTO": "$ 91,543,292.5",
+                    "VOLUME24HOUR": "Ƀ 44,083.2",
+                    "VOLUME24HOURTO": "$ 2,406,194,420.2",
+                    "OPENDAY": "$ 54,351.9",
+                    "HIGHDAY": "$ 54,656.6",
+                    "LOWDAY": "$ 53,791.1",
+                    "OPEN24HOUR": "$ 54,714.1",
+                    "HIGH24HOUR": "$ 55,792.1",
+                    "LOW24HOUR": "$ 52,962.2",
+                    "LASTMARKET": "binanceusa",
+                    "VOLUMEHOUR": "Ƀ 1,693.05",
+                    "VOLUMEHOURTO": "$ 91,543,292.5",
+                    "OPENHOUR": "$ 54,351.9",
+                    "HIGHHOUR": "$ 54,656.6",
+                    "LOWHOUR": "$ 53,791.1",
+                    "TOPTIERVOLUME24HOUR": "Ƀ 44,083.2",
+                    "TOPTIERVOLUME24HOURTO": "$ 2,406,194,420.2",
+                    "CHANGE24HOUR": "$ -702.69",
+                    "CHANGEPCT24HOUR": "-1.28",
+                    "CHANGEDAY": "$ -340.42",
+                    "CHANGEPCTDAY": "-0.63",
+                    "CHANGEHOUR": "$ -340.42",
+                    "CHANGEPCTHOUR": "-0.63",
+                    "CONVERSIONTYPE": "direct",
+                    "CONVERSIONSYMBOL": "",
+                    "SUPPLY": "Ƀ 18,662,556.0",
+                    "MKTCAP": "$ 1,007.99 B",
+                    "MKTCAPPENALTY": "0 %",
+                    "TOTALVOLUME24H": "Ƀ 230.49 K",
+                    "TOTALVOLUME24HTO": "$ 12.47 B",
+                    "TOTALTOPTIERVOLUME24H": "Ƀ 230.06 K",
+                    "TOTALTOPTIERVOLUME24HTO": "$ 12.45 B",
+                    "IMAGEURL": "/media/37746251/btc.png"
+                }
+            }
+        }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "cache-control": "public, max-age=10",
+        "content-type": "application/json; charset=UTF-8"
+    },
+    "config": {
+        "url": "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD",
+        "method": "get",
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+    },
+    "request": {}
+}
